@@ -1,4 +1,5 @@
 import os
-path = r"C:\Users\VISHMI VASANA\Desktop\c programme\ass1"
-file = os.listdir(path)
-print(file)
+path = input("Input Folder.")
+list = os.listdir(path)
+for file in list:
+    print(file)
